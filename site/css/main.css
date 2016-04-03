@@ -1,0 +1,82 @@
+body{
+	font-size:16px;
+	color:#000000;
+	font-family: 'Oxygen', sans-serif;
+	margin:0;
+	padding: 0;
+}
+
+}
+.navbar-default{
+	position: relative;
+}
+#header-nav{
+	background-color: Aqua;
+	border-radius: 0;
+	border:0;
+}
+#nav-list{
+	font-size:18px;
+	margin:0;
+}
+#nav-list li{
+	border-bottom: 1px solid #fff;
+}
+#collapsable-nav a{
+	color:Lime;
+	text-align:center;
+	background-color:#BC8F8F;
+ 
+}
+#nav-list a:hover{
+	background-color:Olive;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #FFA07A;
+}
+#chicken, #beef, #sushi{
+	border: 1px solid #F5F5DC;
+	background-color:#CD5C5C;
+	color:#fff;
+	
+}
+.link{
+	text-decoration: none;
+	color: #ADFF2F;
+}
+.link:hover{
+	text-decoration: none;
+	color:#ADFF2F;
+}
+
+/*---------Media Queries-------*/
+@media(min-width: 1200px){
+
+	.row>div{
+	width:33%;
+	margin-right:.3%;
+	
+
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+   .row>#beef{
+   	margin-right: 1%;
+   }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+
+}
+
+@media(max-width: 767px){
+	.navbar-brand{
+		padding-top:10px;
+		height: 80px;
+	}
+	#collapsable-nav{
+	font-size:14px;
+}
+
+}
